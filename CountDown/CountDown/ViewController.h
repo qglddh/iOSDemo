@@ -10,8 +10,6 @@
 
 @interface ViewController : UIViewController
 
-@property (nonatomic,strong)dispatch_source_t queueTimer;
-
 - (IBAction)resumeTimer:(id)sender;
 
 - (IBAction)cancelTimer:(id)sender;
@@ -19,5 +17,8 @@
 - (IBAction)stopTimer:(id)sender;
 
 - (IBAction)jump:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITextField *showTime;
+
 @end
 

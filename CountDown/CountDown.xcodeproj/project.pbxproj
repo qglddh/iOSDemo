@@ -18,6 +18,7 @@
 		C73179DA1BF85F7900C14119 /* CountDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73179D91BF85F7900C14119 /* CountDownUITests.m */; };
 		C73179EA1BF8693A00C14119 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73179E81BF8693A00C14119 /* SubViewController.m */; };
 		C73179EB1BF8693A00C14119 /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73179E91BF8693A00C14119 /* SubViewController.xib */; };
+		C7DB70D81BF88F2C0041FF76 /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DB70D71BF88F2C0041FF76 /* CircularProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		C73179E71BF8693A00C14119 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
 		C73179E81BF8693A00C14119 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 		C73179E91BF8693A00C14119 /* SubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
+		C7DB70D61BF88F2C0041FF76 /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
+		C7DB70D71BF88F2C0041FF76 /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 		C73179B01BF85F7900C14119 /* CountDown */ = {
 			isa = PBXGroup;
 			children = (
+				C7DB70D61BF88F2C0041FF76 /* CircularProgressView.h */,
+				C7DB70D71BF88F2C0041FF76 /* CircularProgressView.m */,
 				C73179B41BF85F7900C14119 /* AppDelegate.h */,
 				C73179B51BF85F7900C14119 /* AppDelegate.m */,
 				C73179B71BF85F7900C14119 /* ViewController.h */,
@@ -289,6 +294,7 @@
 				C73179B91BF85F7900C14119 /* ViewController.m in Sources */,
 				C73179B61BF85F7900C14119 /* AppDelegate.m in Sources */,
 				C73179B31BF85F7900C14119 /* main.m in Sources */,
+				C7DB70D81BF88F2C0041FF76 /* CircularProgressView.m in Sources */,
 				C73179BF1BF85F7900C14119 /* CountDown.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +523,7 @@
 				C73179E01BF85F7900C14119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C73179E11BF85F7900C14119 /* Build configuration list for PBXNativeTarget "CountDownTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +532,7 @@
 				C73179E31BF85F7900C14119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C73179E41BF85F7900C14119 /* Build configuration list for PBXNativeTarget "CountDownUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +541,7 @@
 				C73179E61BF85F7900C14119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
