@@ -16,6 +16,8 @@
 		C73179C41BF85F7900C14119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73179C21BF85F7900C14119 /* LaunchScreen.storyboard */; };
 		C73179CF1BF85F7900C14119 /* CountDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73179CE1BF85F7900C14119 /* CountDownTests.m */; };
 		C73179DA1BF85F7900C14119 /* CountDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73179D91BF85F7900C14119 /* CountDownUITests.m */; };
+		C73179EA1BF8693A00C14119 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73179E81BF8693A00C14119 /* SubViewController.m */; };
+		C73179EB1BF8693A00C14119 /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73179E91BF8693A00C14119 /* SubViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		C73179D51BF85F7900C14119 /* CountDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73179D91BF85F7900C14119 /* CountDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownUITests.m; sourceTree = "<group>"; };
 		C73179DB1BF85F7900C14119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73179E71BF8693A00C14119 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		C73179E81BF8693A00C14119 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		C73179E91BF8693A00C14119 /* SubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,9 @@
 				C73179C51BF85F7900C14119 /* Info.plist */,
 				C73179BD1BF85F7900C14119 /* CountDown.xcdatamodeld */,
 				C73179B11BF85F7900C14119 /* Supporting Files */,
+				C73179E71BF8693A00C14119 /* SubViewController.h */,
+				C73179E81BF8693A00C14119 /* SubViewController.m */,
+				C73179E91BF8693A00C14119 /* SubViewController.xib */,
 			);
 			path = CountDown;
 			sourceTree = "<group>";
@@ -252,6 +260,7 @@
 				C73179C41BF85F7900C14119 /* LaunchScreen.storyboard in Resources */,
 				C73179C11BF85F7900C14119 /* Assets.xcassets in Resources */,
 				C73179BC1BF85F7900C14119 /* Main.storyboard in Resources */,
+				C73179EB1BF8693A00C14119 /* SubViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73179EA1BF8693A00C14119 /* SubViewController.m in Sources */,
 				C73179B91BF85F7900C14119 /* ViewController.m in Sources */,
 				C73179B61BF85F7900C14119 /* AppDelegate.m in Sources */,
 				C73179B31BF85F7900C14119 /* main.m in Sources */,
@@ -351,7 +361,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (X4XM2T4X6D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (X4XM2T4X6D)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -394,7 +405,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (X4XM2T4X6D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (X4XM2T4X6D)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -418,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (X4XM2T4X6D)";
 				INFOPLIST_FILE = CountDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.IOS.CountDown;
@@ -429,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (X4XM2T4X6D)";
 				INFOPLIST_FILE = CountDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.IOS.CountDown;
